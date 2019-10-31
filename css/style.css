@@ -1,0 +1,425 @@
+
+/*版心*/
+
+.w {
+    width: 852px;
+    margin:auto;
+    background-color: #fff;
+}
+
+/*头部开始*/
+.header{
+    /*float: left;*/
+    height: 65px;
+}
+
+.logo {
+    float: left;
+    height: 65px;
+    width: 120px;
+    background:url(../img/logo.png) no-repeat 0 center ;
+}
+.nav {
+    float: left;
+    margin-left:10px;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    height: 65px;
+    padding: 0 10px;
+    line-height: 65px;
+    font-size: 12px;
+    color: #000;
+}
+.nav li a:hover {
+    color: #fff;
+    background-color: #31c27d;
+}
+.search{
+    position: relative;
+    float: left;
+    padding-top: 20px;
+    margin-left: 25px;
+
+}
+.search input{
+    float: left;
+    width: 154px;
+    height: 23px;
+    border:1px solid #ccc;
+    color: #ccc;
+
+    outline: none;
+}
+.search img{
+    position: absolute;
+    top: 25px;
+    right: 5px;
+}
+
+.dl{
+    float: left;
+}
+
+.dl a{
+    float: left;
+    margin-left: 15px;
+    line-height: 65px;
+    color: #000;
+    font-size: 12px;
+}
+.lz{
+    float: left;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+.lz a{
+    display:block;
+    width: 79px;
+    height: 27px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    color: #666;
+    line-height: 27px;
+    text-align: center;
+}
+.ff{
+    float: right;
+     margin-top: 17px;
+    margin-left: 5px;
+}
+.ff a{
+    display: block;
+    width: 58px;
+    height: 27px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    color: #666;
+    line-height: 27px;
+    text-align: center;
+
+}
+.lz a:hover
+,.ff a:hover{
+    color: #fff;
+    background-color: #31c27d;
+    border: 1px solid #31c27d;
+}
+/*头部结束*/
+
+/*新歌首发模块*/
+.banner{
+    height: 520px;
+    background:url(../img/10.jpg) no-repeat;
+}
+.bt-top{
+    float: left;
+    height: 115px;
+    
+
+}
+.bt-top h2{
+    float: left;
+    width: 852px;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 115px;
+    color: #fff;
+    margin: 0 auto;
+}
+.bt-c{
+    float: left;
+    height: 40px;
+    width: 592px;
+    padding-left: 260px;
+}
+.btc-l{
+    float: left;
+}
+
+.bt-c li{
+    float: left;
+    margin-right: 45px;
+    
+
+}
+.bt-c li a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #8d8d8d;
+
+}
+.bt-c li a:hover {
+    color: #fff;
+}
+.btc-r{
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+     color: #fff;
+}
+.bt-buttom{
+    float: left;
+}
+.bt-buttom li{
+    float: left;
+    overflow:hidden;
+    width: 213px;
+    height: 295px;
+    background-color: rgba(0,0,0,.8);
+}
+.bt-buttom li img{
+    width: 213px;
+    height: 213px;
+}
+.bt-buttom li h3{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.bt-buttom .h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bt-buttom li span{
+    display: block;
+    font-size: 10px;
+    color: #aaa;
+    text-align: center;
+}
+/*新歌推荐结束*/
+
+/*热门歌单开始*/
+.hot{
+    height: 535px;
+    background-color: #fff;
+}
+.hot .bt-top h2{
+    color: #000;
+}
+.hot .bt-buttom .i2{
+    background-color: rgba(0,0,0,.5);
+}
+/*热门歌单结束*/
+
+/*MV首播开始*/
+.mv{
+    height: 380px;
+   background-color: #e6e6e6;
+}
+.mv .bt-buttom li{
+    width: 213px;
+    height: 213px;
+    background-color: #e6e6e6;
+    
+}
+.mv .h3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mv .bt-buttom li img{
+    width: 213px;
+    height: 120px;
+}
+.mv .bt-top h2{
+    color: #000;
+}
+.mv .bt-c li a{
+    
+    color: #000; 
+
+}
+.mv .bt-c li a:hover {
+   color: #8d8d8d;
+}
+.mv .btc-r{
+    color: #000;
+}
+.mv .bt-buttom li h3{
+    color: #000;
+}
+/*MV直播结束*/
+
+/*尾部开始*/
+.footer{
+    height: 353px;
+    background-color: #333;
+}
+.footer .w{
+    padding-top: 55px;
+    background-color: #333;
+}
+.footer span{
+    float: left;
+    width: 214px;
+    font-size: 12px;
+    color: #ccc;
+}
+.ft_hd {
+    height: 144px;
+    margin-top: 35px;
+}
+.ft-l{
+    float: left;
+    width: 350px;
+
+}
+.ft-l span,
+.ft-c span {
+    margin-bottom: 40px;
+}
+.ft-jl{
+    float: left;
+    height: 75px;
+}
+.jl-li {
+    float: left;
+    height: 40px;
+}
+.jl-li a {
+    margin-right: 50px;
+}
+.jl-li p {
+    margin-right: 26px;
+}
+.jl-li .jl-p1 {
+    margin-right: 50px;
+}
+.jl-li .jl-p {
+    margin-right: 38px;
+}
+
+
+.ft-jl .jl-1{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/footer.png) no-repeat -1px -3px;
+}
+.ft-jl .jl-1:hover {
+    background-position: 0 -39px;
+}
+.ft-jl .jl-2{
+    display: inline-block;
+    width: 36px;
+    height: 30px;
+    background: url(../img/footer.png) no-repeat -68px -6px;
+}
+.ft-jl .jl-2:hover {
+    background-position: -68px -41px;
+}
+.ft-jl .jl-3{
+    display: inline-block;
+    width: 31px;
+    height: 32px;
+    background: url(../img/footer.png) no-repeat -140px -4px;
+}
+.ft-jl .jl-3:hover {
+    background-position: -140px -39px;
+}
+.ft-jl .jl-4{
+    display: inline-block;
+    width: 28px;
+    height: 31px;
+    background: url(../img/footer.png) no-repeat -207px -5px;
+}
+.ft-jl .jl-4:hover {
+    background-position: -206px -40px;
+}
+.jl-zi .l1{
+    margin-right: 0;
+}
+.ft-c{
+    float: left;
+}
+.jl-c {
+    width: 189px;
+  
+}
+.c_list {
+    float: left;
+    margin-right: 50px;
+}
+.jl-c .c1 {
+    margin-right: 0;
+}
+.jl-c .c2 {
+    margin-right: 13px;
+}
+.jl-c .c3 {
+    margin-right: 25px;
+}
+.jl-c .c4 {
+    margin-right: 0;
+}
+.jl-c .c5 {
+    margin-right: 25px;
+}
+.jl-c1{
+    display: inline-block;
+    width: 31px;
+    height: 32px;
+    background: url(../img/footer.png) no-repeat -276px -5px;
+
+}
+.jl-c1:hover {
+    background-position: -275px -40px;
+}
+.jl-c2{
+    display: inline-block;
+    width: 28px;
+    height: 31px;
+    background: url(../img/footer.png) no-repeat -346px -5px;
+
+}
+.jl-c2:hover {
+    background-position: -346px -40px;
+}
+.jl-c3{
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    background: url(../img/footer.png) no-repeat -420px -3px;
+
+}
+.jl-c3:hover {
+    background-position: -418px -40px;
+}
+.ft-r{
+    float: left;
+    width: 231px;
+    height: 89px;
+    margin-left: 57px;
+
+}
+.ft-r dl{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+.ft-r dd{
+    font-size: 10px;
+    line-height: 25px;
+}
+.ft-bd {
+     background-color: #333;
+     padding-top: 50px;
+}
+.ft-bd .bd_a {
+    margin-right: 3px;
+}
+
+.ft-bd p {
+    text-align: center;
+}
